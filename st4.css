@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.html{
+    height: 700px;
+    width: 1280px;
+    background-color: gray;
+    background-image: url(aaaaa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p10{
+    font-size: 50px;
+    color: greenyellow;
+    margin-left: 10px;
+    animation-name: even;
+    padding-top: 10px;
+    transform: translateX(5px);
+    padding-left: 10px;
+    backdrop-filter: blur(20px);
+}
+.p11{
+    height: 260px;
+    width: 350px;
+    font-size: 22px;
+    font: bold;
+    text-align: justify;
+    color: black;
+    margin-left: 10px;
+    text-transform: capitalize;
+    backdrop-filter: blur(50px);
+    transform: translateY(10px);
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background: fixed;
+     animation-name: even;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-direction: right;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.number{
+    width: 450px;
+    height: 400px;
+    background: none;
+    backdrop-filter: blur(30px);
+    transform: translateX(700px);
+    animation-name: even;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-direction: right;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    transform: translateY(-200px);
+    margin-left: 800px;
+}
+h1{
+    text-align: center;
+    color: greenyellow;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+h2{
+    text-align: center;
+    color: gold;
+    padding: 0;
+    margin-top: 20px;
+}
+@keyframes even {
+    100%{width: 400px;}
+    100%{opacity: 1;}
+}
+
+
+
+
+
+

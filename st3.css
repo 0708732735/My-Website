@@ -1,0 +1,458 @@
+@font-face {
+    font-family: "yekan";
+    src: url("KUNSTLER.TTF");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    height: 320px;
+    width: 400px;
+    background-color: gray;
+    background-image: url(brakfast.jpg);
+    box-shadow: 2px 0.5px 15px red;
+     animation: spin 1.5s forwards ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 15px;
+    border-top-left-radius: 30px;
+}
+.menu1{
+    height: 320px;
+    width: 400px;
+    background-color: gray;
+    background-image: url(lunch.jpg);
+    box-shadow: 2px 0.5px 15px greenyellow;
+     animation: spin 1.5s forwards ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+     border-top-left-radius: 30px;
+}
+.menu2{
+    height: 320px;
+    width: 400px;
+    background-color: gray;
+    background-image: url(dinner.jpg);
+    box-shadow: 2px 0.5px 15px blue;
+    animation: spin 1.5s forwards ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 10px;
+     border-top-left-radius: 30px;
+}
+.menu3{
+    height: 320px;
+    width: 400px;
+    background-color: gray;
+    background-image: url(Food.jpg);
+    box-shadow: 2px 0.5px 15px red;
+    animation: spin 1.5s forwards ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 15px;
+    border-top-left-radius: 30px;
+}
+.menu4{
+    height: 320px;
+    width: 400px;
+    background-color: gray;
+    background-image: url(cook\ \(3\).jpg);
+    box-shadow: 2px 0.5px 15px greenyellow;
+    animation: spin 1.5s forwards ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 1px;
+    border-top-left-radius: 30px;
+}
+.menu5{
+    height: 320px;
+    width: 400px;
+    background-color: gray;
+    background-image: url(AAA.jpg);
+    box-shadow: 2px 0.5px 15px blue;
+     animation: spin 1.5s forwards ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 0.5px;
+    border-top-left-radius: 30px;
+}
+.menu6{
+    height: 320px;
+    width: 400px;
+    background-color: gray;
+    background-image: url(brakfast1.jpg);
+    box-shadow: 2px 0.5px 15px red;
+     animation: spin 1.5s forwards ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 15px;
+    border-top-left-radius: 30px;
+}
+.menu7{
+    height: 320px;
+    width: 400px;
+    background-color: gray;
+    background-image: url(brakfast2.jpg);
+    box-shadow: 2px 0.5px 15px greenyellow;
+     animation: spin 1.5s forwards ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 0.5px;
+    border-top-left-radius: 30px;
+}
+.menu8{
+    height: 320px;
+    width: 400px;
+    background-color: gray;
+    background-image: url(food1.jpg);
+    box-shadow: 2px 0.5px 15px blue;
+     animation: spin 1.5s forwards ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 0.5px;
+    border-top-left-radius: 30px;
+}
+.menu9{
+    height: 320px;
+    width: 400px;
+    background-color: gray;
+    background-image: url(food2.jpg);
+    box-shadow: 2px 0.5px 15px red;
+     animation: spin 1.5s forwards ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 15px;
+    border-top-left-radius: 30px;
+}
+.menu10{
+    height: 320px;
+    width: 400px;
+    background-color: gray;
+    background-image: url(lunch1.jpg);
+    box-shadow: 2px 0.5px 15px greenyellow;
+     animation: spin 1.5s forwards ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 0.5px;
+    border-top-left-radius: 30px;
+}
+.menu11{
+    height: 320px;
+    width: 400px;
+    background-color: gray;
+    background-image: url(lunch2.jpg);
+    box-shadow: 2px 0.5px 15px blue;
+     animation: spin 1.5s forwards ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 0.5px;
+    border-top-left-radius: 30px;
+}
+.menu12{
+    height: 320px;
+    width: 400px;
+    background-color: gray;
+    background-image: url(lunch3.jpg);
+    box-shadow: 2px 0.5px 15px blue;
+     animation: spin 1.5s forwards ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 15px;
+    border-top-left-radius: 30px;
+}
+.menu13{
+    height: 320px;
+    width: 400px;
+    background-color: gray;
+    background-image: url(food3.jpg);
+    box-shadow: 2px 0.5px 15px blue;
+     animation: spin 1.5s forwards ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 0.5px;
+    border-top-left-radius: 30px;
+}
+.menu14{
+    height: 320px;
+    width: 400px;
+    background-color: gray;
+    background-image: url(brakfast3.jpg);
+    box-shadow: 2px 0.5px 15px blue;
+     animation: spin 1.5s forwards ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 0.5px;
+    border-top-left-radius: 30px;
+}
+@keyframes spin {
+    100%  {
+        transform: rotate(360deg);
+    }
+}
+.s10{
+    transform: translateY(130px);
+    font-size: 40px;
+    color: black;
+}
+.s15{
+    transform: translateY(130px);
+    font-size: 40px;
+    color: blue;
+}
+.s20{
+    transform: translateY(130px);
+    font-size: 40px;
+    color: gold;
+}
+.s25{
+    transform: translateY(130px);
+    font-size: 40px;
+    color: greenyellow;
+}
+.s30{
+    transform: translateY(130px);
+    font-size: 40px;
+    color: red;
+}
+.s40{
+    transform: translateY(130px);
+    font-size: 40px;
+    color: yellow;
+}
+.s45{
+    transform: translateY(130px);
+    font-size: 40px;
+    color: yellow;
+}
+.s50{
+    transform: translateY(130px);
+    font-size: 40px;
+    color: yellow;
+}
+.s55{
+    transform: translateY(130px);
+    font-size: 40px;
+    color: yellow;
+}
+.s60{
+    transform: translateY(130px);
+    font-size: 40px;
+    color: yellow;
+}
+.s65{
+    transform: translateY(130px);
+    font-size: 40px;
+    color: yellow;
+}
+.s70{
+    transform: translateY(130px);
+    font-size: 40px;
+    color: yellow;
+}
+.s75{
+    transform: translateY(130px);
+    font-size: 40px;
+    color: yellow;
+}
+.s80{
+    transform: translateY(130px);
+    font-size: 40px;
+    color: yellow;
+}
+.s85{
+    transform: translateY(130px);
+    font-size: 40px;
+    color: yellow;
+}
+.p1{
+    text-align: justify;
+    transform: translateY(6px);
+    font-size: 16px;
+    padding: 5px;
+    color: yellow;
+    backdrop-filter: blur(20px);
+}
+.p2{
+    text-align: justify;
+    transform: translateY(6px);
+    font-size: 15px;
+     padding: 5px;
+     color: yellow;
+      backdrop-filter: blur(20px);
+}
+.p3{
+    text-align: justify;
+    transform: translateY(6px);
+    font-size: 15px;
+     padding: 5px;
+     color: yellow;
+      backdrop-filter: blur(20px);
+}
+.p4{
+    text-align: justify;
+    transform: translateY(6px);
+    font-size: 15px;
+     padding: 5px;
+     color: yellow;
+      backdrop-filter: blur(20px);
+}
+.p5{
+    text-align: justify;
+    transform: translateY(6px);
+    font-size: 15px;
+     padding: 5px;
+     color: yellow;
+      backdrop-filter: blur(20px);
+}
+.p6{
+    text-align: justify;
+    transform: translateY(6px);
+    font-size: 15px;
+     padding: 5px;
+     color: yellow;
+      backdrop-filter: blur(20px);
+}
+.p7{
+    text-align: justify;
+    transform: translateY(6px);
+    font-size: 15px;
+     padding: 5px;
+     color: yellow;
+      backdrop-filter: blur(20px);
+}
+.p8{
+    text-align: justify;
+    transform: translateY(6px);
+    font-size: 15px;
+     padding: 5px;
+     color: yellow;
+      backdrop-filter: blur(20px);
+}
+.p9{
+    text-align: justify;
+    transform: translateY(6px);
+    font-size: 15px;
+     padding: 5px;
+     color: yellow;
+      backdrop-filter: blur(20px);
+}
+.p10{
+    text-align: justify;
+    transform: translateY(6px);
+    font-size: 15px;
+     padding: 5px;
+     color: yellow;
+      backdrop-filter: blur(20px);
+}
+.p11{
+    text-align: justify;
+    transform: translateY(6px);
+    font-size: 15px;
+     padding: 5px;
+     color: yellow;
+      backdrop-filter: blur(20px);
+}
+.p12{
+    text-align: justify;
+    transform: translateY(6px);
+    font-size: 15px;
+     padding: 5px;
+     color: yellow;
+      backdrop-filter: blur(20px);
+}
+.p13{
+    text-align: justify;
+    transform: translateY(6px);
+    font-size: 15px;
+     padding: 5px;
+     color: yellow;
+      backdrop-filter: blur(20px);
+}
+.p14{
+    text-align: justify;
+    transform: translateY(6px);
+    font-size: 15px;
+     padding: 5px;
+     color: yellow;
+      backdrop-filter: blur(20px);
+}
+.p15{
+    text-align: justify;
+    transform: translateY(6px);
+    font-size: 15px;
+     padding: 5px;
+     color: yellow;
+      backdrop-filter: blur(20px);
+}
+.or{
+    justify-content: right;
+    display: flex;
+    align-items: right;
+    transform: translateY(30px);
+    margin-left: 11px;
+    padding: 3px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: red;
+    font-size: 25px;
+    box-shadow: 10px 3px 10px red;
+    animation: spin 3s forwards;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+a{
+    text-decoration: none;
+}
+.foodname{
+    text-align: center;
+    color: greenyellow;
+    font-family: yekan;
+    font-size: 40px;
+    backdrop-filter: blur(20px);
+}
